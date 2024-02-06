@@ -1,0 +1,134 @@
+/* fonts */
+@font-face {
+  font-family: vazir;
+  src: url("../font/Vazir-Regular.eot");
+  src: url("../font/Vazir-Regular.woff") format("woff"),
+    url("../font/Vazir-Regular.ttf") format("ttf"),
+    url("../font/Vazir-Regular.woff2") format("woff2");
+}
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: vazir;
+  box-sizing: border-box;
+}
+/*  */
+.h-color {
+  width: 100%;
+  height: 88px;
+  background-color: #d9d9d9;
+}
+.h-color div > button {
+  color: #000;
+  font-weight: bold;
+}
+.boxs {
+  width: 468px;
+  height: 331px;
+  background-color: #d9d9d9;
+  margin-top: 60px;
+  border-radius: 11px;
+}
+.boxs i {
+  color: #fff;
+}
+.til {
+  width: 468px;
+  height: 65px;
+  border-radius: 11px 11px 0 0;
+  overflow-y: auto;
+  word-wrap: break-word;
+  border-bottom: solid 1px #a6a6a6;
+}
+.elips{
+    width: 36px;
+    height: 36px;
+    background-color: #b5b5b5;
+}
+.content{
+  width: 418px;
+  height: 216px;
+  background-color: #c6c6c6;
+  border: solid 1px #a8a8a8;
+  overflow-y: auto;
+  word-wrap: break-word;
+
+}
+.content p{
+  line-height: 27px;
+  font-weight: 700;
+  
+}
+.stu{
+  width: 100%;
+  height: 64px;
+  background-color: #d9d9d9;
+}
+.btn-secondary{
+  background-color: #b3b3b3 !important;
+}
+.add-note{
+  width: 527px;
+  height: 582px;
+  border-radius: 14px;
+  background-color: #d9d9d9;
+}
+.lines{
+  width: 100%;
+  height: 50px;
+  border-radius: 14px 14px 0 0;
+  border-bottom: solid 1px #a4a4a4;
+}
+.lines > h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  cursor: pointer;
+  font-size: 40px;
+ 
+}
+.txt-inp{
+  width: 478px;
+  height: 66px;
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+.txt-inps{
+  width: 478px;
+  height: 303px;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+.w-btn{
+  background-color:#8a8a8a !important;
+  width: 153px;
+}
+
+.elips{
+  cursor: pointer;
+}
+.hide{
+  position: fixed;
+  margin: auto;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.hiden{
+visibility: hidden;
+}
+input{
+  /* border: none;
+ outline: none;
+  box-shadow: none; */
+  vertical-align: top;
+}
+/* input:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+} */
+textarea{
+  resize: none;
+}

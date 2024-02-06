@@ -1,0 +1,413 @@
+/* responsive media query */
+@media (min-width:2000px) and (max-width:2600px) {
+  .boxs{
+    width: 600px;
+    height: 423px;
+  }
+  .til{
+    width: 600px;
+  }
+  .content{
+    width: 550px;
+    height: 308px;
+    font-size: 27px;
+    
+  }
+  .content p{
+    font-weight: 700 !important;
+    line-height: 34px !important;
+ 
+  }
+  .h-color div button{
+    font-size: 27px;
+  }
+  .til h5{
+    font-size: 30px;
+  }
+  .til i{
+    font-size: 27px;
+  }
+  .elips{
+    width: 48px;
+    height: 48px;
+  }
+  footer h5{
+    font-size: 33px;
+  }
+  .add-note{
+    width: 767px;
+    height: 780px;
+    
+  }
+  .txt-inp{
+    width: 658px;
+  }
+  .txt-inps{
+    width: 658px;
+  }
+  .add-note h5{
+    font-size: 30px;
+  }
+  .add-note button{
+    font-size: 30px;
+    margin-top: 110px !important;
+  }
+  .lines h2{
+    font-size: 50px;
+  }
+}
+@media (min-width:1800px)and (max-width:2000px) {
+  .boxs{
+    width: 500px;
+    height: 363px;
+  }
+  .til{
+    width: 500px;
+  }
+  .content{
+    width: 450px;
+    height: 248px;
+    font-size: 20px;
+  }
+  .add-note{
+    width: 687px;
+    height: 685px;
+    
+  }
+  .txt-inp{
+    width: 568px;
+  }
+  .txt-inps{
+    width: 568px;
+  }
+  .add-note h5{
+    font-size: 27px;
+  }
+  .add-note button{
+    font-size: 27px;
+  }
+  .h-color div button{
+    font-size: 23px;
+  }
+  .til h5{
+    font-size: 26px;
+  }
+  .til i{
+    font-size: 25px;
+  }
+  .elips{
+    width: 46px;
+    height: 46px;
+  }
+  footer h5{
+    font-size: 27px;
+  }
+}
+@media(max-width : 992px )  {
+    .boxs{
+     width: 400px;
+     height: 300px;
+     
+    }
+    .til{
+      width: 400px;
+    }
+    .content{
+      width: 350px;
+      height: 200px;
+      font-size: 14.5px;
+    }
+    
+  }
+  @media (max-width:850px) {
+    .boxs{
+      width: 370px;
+      height: 300px;
+    }
+    .til{
+      width: 370px;
+    }
+    .content{
+      width: 320px;
+      height: 200px;
+      font-size: 13.2px;
+    }
+    
+  }
+  @media (max-width:780px) {
+    .boxs{
+      width: 340px;
+    }
+    .til{
+      width: 340px;
+    }
+    .content{
+      width: 290px;
+      font-size:11.6px ;
+    }
+  }
+  @media (max-width:720px) {
+    .boxs{
+      width: 310px;
+      height: 330px;
+    }
+    .til{
+      width: 310px;
+    }
+    .content{
+      width: 270px;
+      height: 230px;
+      font-size: 11px;
+    }
+  }
+  @media (max-width:660px) {
+    .boxs{
+      width: 280px;
+      height: 330px;
+    }
+    .til{
+      width: 280px;
+    }.content{
+      width: 250px;
+      height: 230px;
+      font-size: 11px;
+    }
+  }
+  @media (max-width:610px) {
+    .boxs{
+      width: 270px;
+      height: 345px;
+    }
+    .til{
+      width: 270px;
+    }.content{
+      width: 240px;
+      height: 245px;
+    }
+    
+  }
+  @media (max-width:575px) {
+    .boxs{
+      margin: auto;
+      margin-bottom: 30px;
+      width: 400px;
+    }
+    .til{
+      width: 400px;
+    }
+    .content{
+      width: 350px;
+      font-size: 16px;
+    }
+    .add-note{
+      width: 530px;
+      
+      
+    }
+    .txt-inp{
+      width: 458px;
+    }
+    .txt-inps{
+      width: 458px;
+    }
+  }
+  @media (max-width:550px) {
+    .add-note{
+      width: 510px;
+      
+      
+    }
+    .txt-inp{
+      width: 448px;
+    }
+    .txt-inps{
+      width: 448px;
+    }
+  }
+  @media (max-width:524px) {
+    .add-note{
+      width: 490px;
+      
+      
+      
+    }
+    .txt-inp{
+      width: 428px;
+    }
+    .txt-inps{
+      width: 428px;
+    }
+  }
+  @media (max-width:500px) {
+    .boxs{
+      width: 350px;
+    }
+    .til{
+      width: 350px;
+    }
+    .content{
+      width: 300px;
+      font-size:14px ;
+    }
+    .h-color{
+      height: 80px;
+    }
+    .add-note{
+      width: 470px;
+      height: 642px;
+      
+    }
+    .txt-inp{
+      width: 413px;
+    }
+    .txt-inps{
+      width: 413px;
+    }
+    
+  }
+  @media (max-width:485px) {
+    .add-note{
+      width: 450px;
+      height: 642px;
+      
+    }
+    .txt-inp{
+      width: 400px;
+    }
+    .txt-inps{
+      width: 400px;
+    }
+  }
+  @media (max-width:465px) {
+    .add-note{
+      width: 430px;
+      height: 632px;
+      
+    }
+    .txt-inp{
+      width: 385px;
+    }
+    .txt-inps{
+      width: 385px;
+    }
+  }
+  @media (max-width:445px) {
+    .add-note{
+      width: 400px;
+      height: 630px;
+      
+    }
+    .txt-inp{
+      width: 360px;
+    }
+    .txt-inps{
+      width: 360px;
+    }
+  }
+  @media (max-width:415px) {
+    .add-note{
+      width: 380px;
+      height: 630px;
+      
+    }
+    .txt-inp{
+      width: 340px;
+    }
+    .txt-inps{
+      width: 340px;
+    }
+  }
+  @media (max-width:400px) {
+      .boxs{
+        width: 300px;
+      }
+      .til{
+        width: 300px;
+      }
+      .content{
+        width: 250px;
+        font-size: 12px;
+      }
+      .h-color div h2{
+        font-size: 22px ;
+        margin-top: 9px;
+      }
+      .h-color{
+        height: 75px;
+      }
+      .add-note{
+        width: 350px;
+        height: 630px;
+        
+      }
+      .txt-inp{
+        width: 320px;
+      }
+      .txt-inps{
+        width: 320px;
+      }
+  }
+  @media (max-width:375px) {
+    .add-note{
+      width: 320px;
+      height: 630px;
+      
+    }
+    .txt-inp{
+      width: 290px;
+    }
+    .txt-inps{
+      width: 290px;
+    }
+  }
+
+  @media (max-width:340px) {
+    .boxs{
+      width: 280px;
+      height: 360px;
+    }
+    .til{
+      width: 280px;
+    }
+    .content{
+      width: 230px;
+      height: 260px;
+    }
+    .h-color div h2{
+      font-size: 20px ;
+      margin-top: 10px;
+    }
+    .h-color{
+      height: 70px;
+    }
+    .add-note{
+      width: 285px;
+      height: 625px;
+      
+    }
+    .txt-inp{
+      width: 255px;
+    }
+    .txt-inps{
+      width: 255px;
+    }
+  }
+  /*.box{ width: 468px;
+  height: 331px;
+  background-color: #d9d9d9;
+  margin-top: 60px;
+  border-radius: 11px;}
+  .til {
+    width: 468px;
+    height: 65px;
+    border-radius: 11px 11px 0 0;
+    
+    border-bottom: solid 1px #a6a6a6;
+  }
+  .content{
+    width: 418px;
+    height: 216px;
+    background-color: #c6c6c6;
+    border: solid 1px #a8a8a8;
+  }
+  */

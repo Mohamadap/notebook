@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <!-- style link -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- icon link -->
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- responsive link -->
+    <link rel="stylesheet" href="style/responsive.css">
+    <title>notebook</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="h-color">
+      <div class="container-fluid">
+        <div
+          class="row d-flex justify-content-start align-items-center h-color"
+        >
+          <div>
+            <button id="addNoteBtn" type="button" class="btn btn-secondary">
+              افزودن یادداشت
+            </button>
+            <h2 class="float-end fw-bold">دفترچه یادداشت</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="mt-5">
+      <div class="container-fluid d-flex flex-column align-items-center justify-content-center sd">
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div id="boxId" class="boxs d-flex flex-column align-items-center">
+              <div
+                class="til d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex">
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-3"
+                  >
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-1"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold me-4 mt-2 k">یاداشت اول</h5>
+                </div>
+              </div>
+              <div class="content mt-4">
+                <p dir="rtl" class="p-3 j" >
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فرا
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="boxs d-flex flex-column align-items-center">
+              <div
+                class="til d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex">
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-3"
+                  >
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-1"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold me-4 mt-2 k">یاداشت دوم</h5>
+                </div>
+              </div>
+              <div class="content mt-4">
+                <p dir="rtl" class="p-3 j">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="boxs d-flex flex-column align-items-center">
+              <div
+                class="til d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex">
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-3"
+                  >
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-1"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold me-4 mt-2">یاداشت سوم</h5>
+                </div>
+              </div>
+              <div class="content mt-4">
+                <p dir="rtl" class="p-3">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="boxs d-flex flex-column align-items-center">
+              <div
+                class="til d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex">
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-3"
+                  >
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-1"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold me-4 mt-2">یاداشت چهارم</h5>
+                </div>
+              </div>
+              <div class="content mt-4">
+                <p dir="rtl" class="p-3">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="boxs d-flex flex-column align-items-center">
+              <div
+                class="til d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex">
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-3"
+                  >
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-1"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold me-4 mt-2">یاداشت پنجم</h5>
+                </div>
+              </div>
+              <div class="content mt-4">
+                <p dir="rtl" class="p-3">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="boxs  d-flex flex-column align-items-center">
+              <div
+                class="til d-flex align-items-center justify-content-between"
+              >
+                <div class="d-flex">
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-3"
+                  >
+                    <i class="fa-solid fa-trash"></i>
+                  </div>
+
+                  <div
+                    class="elips d-flex align-items-center justify-content-center rounded-circle ms-1"
+                  >
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </div>
+                </div>
+                <div>
+                  <h5 class="fw-bold me-4 mt-2">یاداشت ششم</h5>
+                </div>
+              </div>
+              <div class="content mt-4">
+                <p dir="rtl" class="p-3">
+                  لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                  استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و
+                  مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                  تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای
+                  کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و
+                  آینده شناخت فراوان جامعه و متخصصان را می طلبد
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--footer  -->
+    
+    <footer class="mt-5 stu">
+      <div class="container-fluid">
+        <div class="row d-flex align-items-center justify-content-center stu ">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <h5 class="fw-bold mt-2 text-center">شهرآبادی</h5>
+          </div>
+            
+          
+        </div>
+      </div>
+      
+    </footer>
+    
+    <!-- add note -->
+    <section class="d-flex align-items-center justify-content-center modals hiden">
+      <div class="container add-note">
+        <div class="row" dir="rtl">
+         <div class="lines d-flex align-items-center">
+              <h2 onclick="cleartextareas()" class="close-modal" >x</h2>
+         </div>
+         <h5 class="pe-5 mt-4 fw-bold me-2">عنوان یادداشت</h5>
+         <div class="d-flex flex-column align-items-center">
+           
+            <div class="txt-inp">
+              <textarea  class="txt-inp" tabindex="1" id="mytextarea"></textarea>
+            </div>
+         </div>
+         <h5 class="pe-5 mt-4 fw-bold me-2">عنوان یادداشت</h5>
+         <div class="d-flex flex-column align-items-center">
+          <div class="txt-inps">
+           <textarea class="txt-inps" tabindex="2" id="mytextarea1"></textarea>
+
+          </div>
+         </div>
+         
+         <div class="d-flex flex-column align-items-center">
+          <button class="p-2 fw-bold btn btn-secondary mt-3 w-btn " tabindex="3">ثبت یادداشت</button>
+         </div>
+
+        </div>
+      </div>
+    </section>
+    <!--edit note  -->
+    <section class="d-flex align-items-center justify-content-center edit-modal hiden">
+      <div class="container add-note">
+        <div class="row" dir="rtl">
+         <div class="lines d-flex align-items-center">
+              <h2  class="close-modals">x</h2>
+         </div>
+         <h5 class="pe-5 mt-4 fw-bold me-2">عنوان یادداشت</h5>
+         <div class="d-flex flex-column align-items-center">
+           
+            <div class="txt-inp">
+              <textarea class="txt-inp" id="mytextareas" tabindex="1"></textarea>
+            </div>
+         </div>
+         <h5 class="pe-5 mt-4 fw-bold me-2">عنوان یادداشت</h5>
+         <div class="d-flex flex-column align-items-center">
+          <div class="txt-inps d-flex align-items-center justify-content-center">
+            <textarea class="txt-inps" tabindex="2" id="mytextareas1"></textarea>
+
+          </div>
+         </div>
+         
+         <div class="d-flex flex-column align-items-center">
+          <button class="p-2 fw-bold btn btn-secondary mt-3 w-btns " tabindex="3">ویرایش یادداشت</button>
+         </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!-- link js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
